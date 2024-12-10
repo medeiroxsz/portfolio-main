@@ -1,0 +1,87 @@
+/* Define a fonte personalizada Bukhari para ser usada no projeto */
+@font-face {
+    font-family: 'Bukhari';
+    src: url('Fonte/Bukhari Script.ttf'); /* Caminho para o arquivo da fonte */
+}
+
+/* Define a cor de fundo da página como preto */
+body {
+    background-color: black;
+}
+
+/* Centraliza o logo no cabeçalho */
+.logo {
+    text-align: center;
+}
+
+/* Estiliza o logo no cabeçalho, ajustando seu tamanho */
+header div img {
+    width: 12%; /* Define a largura da imagem do logo como 12% da largura do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estiliza a imagem no menu de navegação com efeito de rotação ao passar o mouse */
+nav img {
+    position: relative;
+    left: 30px;
+    top: 30px;
+    width: 30px; /* Define o tamanho da imagem no menu de navegação */
+    transition: transform 1s; /* Adiciona uma transição suave no movimento */
+}
+
+nav img:hover {
+    transform: rotate(270deg); /* Aplica a rotação de 270 graus ao passar o mouse */
+}
+
+/* Estiliza a linha de separação visual com um gradiente */
+.linha {
+    position: relative;
+    top: 50px;
+    font-size: 2px; /* Propriedade que provavelmente não afeta visualmente e pode ser removida */
+    background-image: linear-gradient(to right, black, #44667d, black); /* Define o gradiente de fundo */
+}
+
+/* Estiliza o título principal da página */
+h1 {
+    padding-top: 30px; /* Espaçamento superior */
+    text-align: center; /* Centraliza o título horizontalmente */
+    font-size: xxx-large; /* Define o tamanho da fonte */
+    font-family: 'Bukhari'; /* Aponta para a fonte personalizada */
+    color: #44667d; /* Define a cor do texto */
+}
+
+/* Configura o layout da página com uma grade de duas colunas */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto; /* Define duas colunas de tamanho automático */
+}
+
+/* Centraliza imagens e elementos visuais representados por <figure> */
+figure {
+    text-align: center;
+}
+
+/* Ajusta o tamanho das imagens dentro da tag <figure> */
+figure img {
+    width: 54%; /* Define a largura da imagem como 54% da largura do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estiliza parágrafos de texto para melhorar a apresentação visual */
+div p {
+    padding-right: 50px; /* Espaço na margem direita */
+    text-align: justify; /* Justifica o texto */
+    font-size: xx-large; /* Define o tamanho da fonte */
+    font-family: Arial, Helvetica, sans-serif; /* Define fontes alternativas caso a fonte principal falhe */
+    color: #d9d9d9; /* Define a cor do texto */
+}
+
+/* Define a cor do texto quando o usuário selecionar algum conteúdo */
+div p::selection {
+    color: #44667d; /* Aponta a cor da seleção para combinar com o tema */
+}
+
+/*
+    Aluno: Brenno de Souza Marcondes de Medeiros
+    RU: 4679099
+*/

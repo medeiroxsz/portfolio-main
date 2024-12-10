@@ -1,0 +1,104 @@
+/* Fonte personalizada para usar no título */
+@font-face {
+    font-family: 'Bukhari';
+    src: url(Fonte/Bukhari\ Script.ttf); /* Caminho para o arquivo da fonte personalizada */
+}
+
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define uma fonte padrão para o texto */
+    background-color: black; /* Fundo preto para toda a página */
+}
+
+/* Centraliza a logo no topo e define espaçamento superior */
+.logo {
+    text-align: center; /* Centraliza horizontalmente */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estilo da imagem da logo no cabeçalho */
+header div img {
+    width: 12%; /* Define a largura como uma porcentagem do contêiner pai */
+    height: auto; /* Mantém a proporção original da imagem */
+}
+
+/* Estilo dos ícones de navegação */
+nav img {
+    position: relative; /* Permite ajustar posição usando left e top */
+    left: 30px; /* Move o ícone 30px para a direita */
+    top: 30px; /* Move o ícone 30px para baixo */
+    width: 30px; /* Define o tamanho do ícone */
+    transition: transform 1s; /* Suaviza a animação de rotação */
+}
+
+/* Animação de rotação do ícone no hover */
+nav img:hover {
+    transform: rotate(270deg); /* Roda o ícone em 270 graus ao passar o mouse */
+}
+
+/* Linha decorativa abaixo do cabeçalho */
+.linha {
+    position: relative; /* Ajustável em relação à posição normal */
+    top: 50px; /* Move a linha para baixo */
+    height: 2px; /* Define a altura da linha */
+    background-image: linear-gradient(to right, black, #44667d, black); /* Gradiente da cor preta para #44667d */
+}
+
+/* Estilo do formulário de contato */
+.formulario {
+    border: solid #44667d; /* Borda com cor de destaque */
+    position: relative; /* Permite ajustes posicionais */
+    top: 100px; /* Move o formulário para baixo */
+    max-width: 500px; /* Limita a largura máxima */
+    background-color: #222; /* Fundo escuro para contraste com o texto */
+    padding: 20px; /* Espaçamento interno */
+    margin: 50px auto; /* Centraliza horizontalmente e adiciona espaçamento superior/inferior */
+}
+
+/* Estilo do título principal */
+h1 {
+    font-family: 'Bukhari', Arial, sans-serif; /* Usa a fonte personalizada, com fallback para Arial */
+    color: #44667d; /* Cor do título */
+    text-align: center; /* Centraliza o título */
+}
+
+/* Estilo dos rótulos (labels) */
+label {
+    color: #d9d9d9; /* Cor do texto dos rótulos */
+    font-weight: bold; /* Destaca os rótulos com negrito */
+}
+
+/* Estilo dos campos de entrada e área de texto */
+input, textarea {
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    padding-top: 10px; /* Espaçamento interno superior */
+    padding-bottom: 10px; /* Espaçamento interno inferior */
+    margin-bottom: 15px; /* Espaçamento inferior entre campos */
+    border: 1px solid #44667d; /* Borda com cor de destaque */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #333; /* Fundo escuro dos campos */
+    color: #d9d9d9; /* Cor do texto */
+}
+
+/* Estilo do botão de envio */
+button {
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #44667d; /* Cor de fundo do botão */
+    color: #d9d9d9; /* Cor do texto do botão */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Indica interatividade ao passar o mouse */
+    font-size: 16px; /* Tamanho do texto */
+    font-weight: bold; /* Negrito no texto */
+}
+
+/* Efeito ao passar o mouse no botão */
+button:hover {
+    background-color: #558899; /* Cor de destaque no hover */
+}
+
+/*
+    Aluno: Brenno de Souza Marcondes de Medeiros
+    RU: 4679099
+*/

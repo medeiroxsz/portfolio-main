@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a visualização em dispositivos móveis -->
+    <title>Document</title> <!-- Título da página -->
+    <link rel="stylesheet" href="contato.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+    <!-- Cabeçalho com logo -->
+    <header>
+        <div class="logo">
+            <!-- Link para a página inicial ao clicar na logo -->
+            <a href="index.html">
+                <img src="imagens/marcondes.png" alt="logo"> <!-- Imagem da logo -->
+            </a>     
+        </div>
+    </header>
+
+    <!-- Navegação com ícone da home -->
+    <nav>
+        <a href="index.html">
+            <img src="imagens/home.png" alt="Ícone Home"> <!-- Ícone de volta à página inicial -->
+        </a>
+    </nav>
+
+    <!-- Linha decorativa abaixo do cabeçalho -->
+    <div class="linha">l</div>
+
+    <!-- Seção do formulário de contato -->
+    <div class="formulario">
+        <h1>ENTRE EM CONTATO</h1> <!-- Título da seção -->
+        <form action="#" method="post"> <!-- Formulário com método POST -->
+            <!-- Campo para nome -->
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+
+            <!-- Campo para e-mail -->
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <!-- Campo para mensagem -->
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" placeholder="Digite sua mensagem" rows="5" required></textarea>
+
+            <!-- Botão para enviar o formulário -->
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    
+    <!--
+        Aluno: Brenno de Souza Marcondes de Medeiros
+        RU: 4679099
+    -->
+</body>
+</html>

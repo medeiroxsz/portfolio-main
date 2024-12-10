@@ -1,0 +1,74 @@
+/* Fonte personalizada */
+@font-face {
+    font-family: 'Bukhari'; /* Nome da fonte personalizada */
+    src: url(Fonte/Bukhari\ Script.ttf); /* Caminho para o arquivo da fonte */
+}
+
+/* Estilo global para o corpo da página */
+body {
+    background-color: black; /* Define o fundo preto para a página */
+}
+
+/* Centraliza a logo no cabeçalho */
+.logo {
+    text-align: center; /* Centraliza horizontalmente */
+}
+
+/* Ajusta o tamanho da imagem no cabeçalho */
+header div img {
+    width: 12%; /* Define a largura como 12% do contêiner pai */
+    height: auto; /* Mantém a proporção original da imagem */
+}
+
+/* Estilo para o menu de navegação */
+nav ul {
+    padding: 25px; /* Espaçamento interno para o menu */
+    text-align: center; /* Centraliza os itens horizontalmente */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens em linha */
+    padding: 5%; /* Espaçamento entre os itens */
+}
+
+/* Estilo para os links do menu */
+nav ul li a {
+    font-family: 'Bukhari'; /* Usa a fonte personalizada */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #d9d9d9; /* Cor padrão dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
+    transition: color 1s, font-size 1s; /* Anima a transição de cor e tamanho da fonte */
+}
+
+/* Efeito ao passar o mouse sobre os links */
+nav ul li a:hover {
+    color: #44667d; /* Muda a cor do texto ao passar o mouse */
+    font-size: x-large; /* Aumenta o tamanho do texto */
+}
+
+/* Estilo para a seleção de texto dentro dos links */
+nav ul li a::selection {
+    color: #44667d; /* Muda a cor do texto selecionado */
+}
+
+/* Linha decorativa */
+.linha {
+    font-size: 2px; /* Define a altura mínima da linha */
+    background-image: linear-gradient(to right, black, #44667d, black); /* Gradiente de preto para #44667d */
+}
+
+/* Estilo para figuras/imagens */
+figure {
+    text-align: center; /* Centraliza as imagens */
+}
+
+figure img {
+    padding: 10px; /* Espaçamento interno ao redor da imagem */
+    width: 600px; /* Define a largura fixa de 600px */
+    height: auto; /* Mantém a proporção original da imagem */
+}
+
+/*
+    Aluno: Brenno de Souza Marcondes de Medeiros
+    RU: 4679099
+*/

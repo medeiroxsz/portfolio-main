@@ -1,0 +1,68 @@
+/* Declaração de uma fonte personalizada */
+@font-face {
+    font-family: 'Bukhari'; /* Nome da fonte que será usada */
+    src: url(Fonte/Bukhari\ Script.ttf); /* Caminho para o arquivo da fonte personalizada */
+}
+
+/* Estilo geral para o corpo da página */
+body {
+    background-color: black; /* Define o fundo preto para toda a página */
+}
+
+/* Centraliza a logo no topo */
+.logo {
+    text-align: center; /* Centraliza horizontalmente */
+}
+
+/* Ajusta o tamanho da imagem no cabeçalho */
+header div img {
+    width: 12%; /* Define a largura como 12% do contêiner pai */
+    height: auto; /* Mantém a proporção original da imagem */
+}
+
+/* Configurações para ícones de navegação */
+nav img {
+    position: relative; /* Permite ajustar a posição com left e top */
+    left: 30px; /* Move o ícone para a direita */
+    top: 30px; /* Move o ícone para baixo */
+    width: 30px; /* Define o tamanho do ícone */
+    transition: transform 1s; /* Adiciona uma transição suave para transformações */
+}
+
+/* Efeito de rotação ao passar o mouse */
+nav img:hover {
+    transform: rotate(270deg); /* Roda o ícone em 270 graus */
+}
+
+/* Linha decorativa abaixo do cabeçalho */
+.linha {
+    position: relative; /* Ajustável em relação à posição padrão */
+    top: 50px; /* Move a linha decorativa para baixo */
+    font-size: 2px; /* Define a altura mínima da linha */
+    background-image: linear-gradient(to right, black, #44667d, black); /* Gradiente de preto para #44667d */
+}
+
+/* Estilo para o título principal */
+h1 {
+    padding-top: 30px; /* Espaçamento superior para afastar do topo */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-size: xxx-large; /* Define o tamanho muito grande do texto */
+    font-family: 'Bukhari'; /* Usa a fonte personalizada */
+    color: #44667d; /* Define a cor do título */
+}
+
+/* Configuração de um layout em grade para a área de conteúdo */
+.grid-container {
+    display: grid; /* Define um contêiner de grade */
+    grid-template-columns: auto auto; /* Cria duas colunas automáticas */
+    color: #d9d9d9; /* Define a cor do texto no contêiner */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte padrão para o texto */
+    font-size: xx-large; /* Tamanho grande do texto */
+    position: relative; /* Permite ajustes com left e top */
+    left: 12.5%; /* Move o contêiner 12.5% para a direita */
+}
+
+/*
+    Aluno: Brenno de Souza Marcondes de Medeiros
+    RU: 4679099
+*/

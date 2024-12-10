@@ -1,0 +1,135 @@
+/* Fonte personalizada */
+@font-face {
+    font-family: 'Bukhari'; /* Define o nome da fonte personalizada */
+    src: url(Fonte/Bukhari\ Script.ttf); /* Caminho para o arquivo da fonte */
+}
+
+/* Estilização geral do corpo da página */
+body {
+    background-color: black; /* Define o fundo da página como preto */
+}
+
+/* Centraliza a logo no cabeçalho */
+.logo {
+    text-align: center; /* Centraliza horizontalmente */
+}
+
+/* Estiliza a imagem no cabeçalho */
+header div img {
+    width: 12%; /* Define a largura da imagem como 12% do tamanho do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estiliza os ícones no menu de navegação com efeito de rotação */
+nav img {
+    position: relative; /* Define a posição relativa para os ajustes de deslocamento */
+    left: 30px;
+    top: 30px;
+    width: 30px; /* Define o tamanho da imagem */
+    transition: transform 1s; /* Aplica uma transição suave ao efeito */
+}
+
+nav img:hover {
+    transform: rotate(270deg); /* Aponta a imagem para 270 graus ao passar o mouse */
+}
+
+/* Linha decorativa abaixo do menu ou elementos específicos */
+.linha {
+    position: relative; 
+    top: 50px;
+    font-size: 2px;
+    background-image: linear-gradient(to right, black, #44667d, black); /* Cria um gradiente horizontal */
+}
+
+/* Estiliza o título principal da seção */
+h1 {
+    padding-top: 30px; /* Espaço superior para ajustar a posição */
+    text-align: center; /* Centraliza o texto */
+    font-size: xxx-large; /* Define um tamanho grande para o título */
+    font-family: 'Bukhari'; /* Aponta para a fonte personalizada */
+    color: #44667d; /* Define a cor do texto */
+}
+
+/* Define a aparência da seção principal com cor clara para contraste */
+section {
+    color: #d9d9d9; /* Define a cor dos textos dentro da seção */
+}
+
+/* Configuração de elementos relacionados a imagens com texto centralizado */
+.jogodavida {
+    position: relative; 
+    top: 100px;
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Estiliza as legendas das imagens */
+.jogodavida figcaption {
+    font-family: "Bukhari";
+    font-size: x-large;
+}
+
+/* Define tamanho da imagem dentro da legenda */
+figcaption img {
+    width: 100px;
+}
+
+/* Configurações para o primeiro gif ou imagem animada com espaçamento vertical */
+.gif1 {
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+
+.gif1 figcaption {
+    font-family: "Bukhari";
+    font-size: x-large;
+}
+
+.gif1 img {
+    width: 50%;
+}
+
+/* Configurações semelhantes para outros gifs/elementos semelhantes com deslocamento */
+.gif2 {
+    position: relative;
+    top: 400px;
+    text-align: center;
+}
+
+.gif2 figcaption {
+    font-family: "Bukhari";
+    font-size: x-large;
+}
+
+.gif2 img {
+    width: 50%;
+}
+
+.gif3 {
+    position: relative;
+    top: 550px;
+    text-align: center;
+}
+
+.gif3 figcaption {
+    font-family: "Bukhari";
+    font-size: x-large;
+}
+
+.gif3 img {
+    width: 50%;
+}
+
+/* Estiliza o rodapé da página com fundo em gradiente */
+footer {
+    padding: 0.5cm; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto do rodapé */
+    position: relative;
+    top: 700px;
+    background-image: linear-gradient(to right, black, #44667d, black); /* Define um fundo em gradiente */
+}
+
+/*
+    Aluno: Brenno de Souza Marcondes de Medeiros
+    RU: 4679099
+*/
